@@ -1,0 +1,407 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.container{
+	width: 90%;
+	height: 750px;
+	background-color: #03fcfc;
+	background-image: url(../img/ttt.avif);
+	background-size: cover;
+	margin-top: 15px;
+	border: solid 2px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #67fc03;
+	text-align: center;
+	font-family: Arial Black;
+}
+
+.logo{
+	width: 27%;
+	height: 300px;
+	background-color: #67fc03;
+	background-size: cover;
+	background-image: url(../img/huma.jpeg);
+	float: left;
+	margin-top: 10px;
+	border-radius: 80px;
+	border: solid 5px;
+	box-shadow: 10px 5px 6px red;
+}
+
+.area{
+	width: 50%;
+	height: 250px;
+	background-color: skyblue;
+	margin-top:-500px;
+	float: right;
+	font-family: Arial Black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.mini-section{
+	width: 20%;
+	height: 100px;
+	background-color: skyblue;
+	margin-top: 45px;
+	
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #67fc03;
+	text-align: center;
+	margin-top: 550px;
+	font-family: Arial Black;
+}
+.links{
+	width: 24%;
+	height: 230px;
+	margin-top: 300px;
+	float: left;
+	
+	font-family: Arial Black;
+	border-radius: 10px;
+	background-color: #67fc03;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.header{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.logo{
+		flex-direction: column;
+		width: 350px;
+	}
+
+	.area{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.contenido{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.mini-area{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.mini-area2{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.section{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.section-2{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.mini-section{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.footer{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.links{
+		flex-direction: column;
+		width: 300px;
+	}
+}
+
+
+.container2{
+	width: 90%;
+	height: 750px;
+	background-color: skyblue;
+	margin-top: 15px;
+	border: solid 2px;
+	font-family: Arial Black;
+	background-image: url(../img/cc.jpg);
+	background-size: cover;
+	font-family: Arial Black;
+}
+
+.cuadrito{
+	width: 20%;
+	height: 200px;
+	background-color: #67fc03;
+	margin-top: 15px;
+	float: left;
+
+	text-align: center;
+	border-radius: 10px;
+}
+
+.cuadro{
+	width: 40%;
+	height: 400px;
+	color: white;
+	margin-top: 100px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Arial Black;
+	box-shadow: 10px 5px 6px white;
+}
+
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.cuadrito{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.cuadro{
+		flex-direction: column;
+		width: 300px;
+	}
+}
+
+
+.container3{
+	width: 90%;
+	height: 750px;
+	background-color: #67fc03;
+	margin-top: 15px;
+	border: solid 2px;
+	background-image: url(../img/qq.webp);
+	background-size: cover;
+	font-family: Arial Black;
+}
+
+.cuadrito3{
+	width: 20%;
+	height: 200px;
+	background-color: #67fc03;
+	margin-top: 15px;
+	float: left;
+
+	text-align: center;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+
+.cuadro3{
+	width: 40%;
+	height: 400px;
+	color: white;
+	margin-top: 100px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Arial Black;
+	box-shadow: 10px 5px 6px white;
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.cuadrito3{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.cuadro3{
+		flex-direction: column;
+		width: 300px;
+	}
+}
+
+.container4{
+	width: 90%;
+	height: 750px;
+	background-color: yellow;
+	margin-top: 15px;
+	border: solid 2px;
+	background-image: url(../img/zz.jpg);
+	background-size: cover;
+	font-family: Arial Black;
+}
+
+.cuadrito4{
+	width: 20%;
+	height: 200px;
+	background-color: #67fc03;
+	margin-top: 15px;
+	float: left;
+	
+	text-align: center;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+
+.cuadro4{
+	width: 40%;
+	height: 400px;
+	color: white;
+	margin-top: 100px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Arial Black;
+	box-shadow: 10px 5px 6px green;
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.cuadrito4{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.cuadro4{
+		flex-direction: column;
+		width: 300px;
+	}
+}
+
+.container5{
+	width: 90%;
+	height: 750px;
+	background-color: yellow;
+	margin-top: 15px;
+	border: solid 2px;
+	background-image: url(../img/aa.jpg);
+	background-size: cover;
+	font-family: Arial Black;
+}
+
+.cuadrito5{
+	width: 20%;
+	height: 200px;
+	background-color: #67fc03;
+	margin-top: 15px;
+	float: left;
+
+	text-align: center;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+
+.cuadro5{
+	width: 40%;
+	height: 400px;
+	color: black;
+	margin-top: 100px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Arial Black;
+	box-shadow: 10px 5px 6px red;
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.cuadrito5{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.cuadro5{
+		flex-direction: column;
+		width: 300px;
+	}
+}
+
+.container6{
+	width: 100%;
+	height: 800px;
+	background-color: yellow;
+	margin-top: 55px;
+	border: solid 2px;
+	background-image: url(../img/zz.jpg);
+	background-size: cover;
+	font-family: Arial Black;
+}
+
+.cuadrito6{
+	width: 20%;
+	height: 200px;
+	background-color: #67fc03;
+	margin-top: 15px;
+	float: left;
+	
+	text-align: center;
+	border-radius: 10px;
+	font-family: Arial Black;
+}
+
+.cuadro6{
+	width: 40%;
+	height: 400px;
+	color: white;
+	margin-top: 100px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Arial Black;
+	box-shadow: 10px 5px 6px green;
+}
+
+/*media queries*/
+
+@media (max-width: 400px){
+	.container{
+		flex-direction: column;
+		width: 400px;
+	}
+
+	.cuadrito6{
+		flex-direction: column;
+		width: 300px;
+	}
+
+	.cuadro6{
+		flex-direction: column;
+		width: 300px;
+	}
+}
